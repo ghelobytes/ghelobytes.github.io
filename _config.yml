@@ -1,0 +1,12 @@
+name: ghelobytes
+description: hack of all trades. master of none. really.
+meta_description: "Your New Jekyll Site, Blogging about stuffs"
+
+markdown: redcarpet
+pygments: true
+logo: false
+paginate: 15
+
+# Details for the RSS feed generator
+url:            'http://ghelobytes.github.io'
+author:         'Angelo Arboleda'
