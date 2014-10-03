@@ -7,7 +7,7 @@ pygments: true
 logo: false
 paginate: 15
 
-baseurl:        'http://ghelobytes.github.io'
+baseurl:        'http://ghelobytes.github.io/'
 
 # Details for the RSS feed generator
 url:            'http://ghelobytes.github.io'
