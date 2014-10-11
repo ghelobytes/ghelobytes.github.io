@@ -14,13 +14,10 @@ My `choice_filter` is set `${Q64.1}`. When I changed it to `current()/Q64.1` eve
 
 Apparently this xml code is being generated:
 
-```
-<itemset nodeset="instance('food_item')/root/item[food_category= /uct_form/S8/T11/Q64.1 ]">
-```
+    <itemset nodeset="instance('food_item')/root/item[food_category= /uct_form/S8/T11/Q64.1 ]">
+
 instead of this one:
 
-```
-<itemset nodeset="instance('food_item')/root/item[food_category=current()/Q64.1]">
-```
+    <itemset nodeset="instance('food_item')/root/item[food_category=current()/Q64.1]">
 
 I'm not yet sure if XLSform or ODK is at fault. I'm just happy to get it working again.
