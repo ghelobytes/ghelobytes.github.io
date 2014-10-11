@@ -5,9 +5,6 @@ date:   2014-10-11 17:41:00
 categories: personal viral
 ---
 
-
-## Cascading select inside a repeat (XLSform)
-
 I keep on getting the error:
 ```
 XPath evaluation: type mismatch...
