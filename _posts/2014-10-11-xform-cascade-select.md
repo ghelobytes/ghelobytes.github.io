@@ -1,6 +1,10 @@
 ---
-published: false
+layout: post
+title:  Cascading select inside a repeat (XLSform)
+date:   2014-10-11 17:41:00
+categories: personal viral
 ---
+
 
 ## Cascading select inside a repeat (XLSform)
 
