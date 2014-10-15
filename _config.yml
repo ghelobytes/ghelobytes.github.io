@@ -1,10 +1,10 @@
 name: ghelobytes
 description: hack of all trades. master of none. really.
-meta_description: "Your New Jekyll Site, Blogging about stuffs"
+meta_description: "All about being ghelo."
 
 markdown: redcarpet
 pygments: true
-logo: false
+logo: true
 paginate: 15
 
 baseurl:        'http://ghelobytes.github.io/'
