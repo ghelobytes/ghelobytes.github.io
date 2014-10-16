@@ -6,7 +6,7 @@ categories: odk
 ---
 So I've come to the part where I needed to export the ODK instances (forms) to Excel. ODK Briefcase does this just fine but I wanted to write my custom tool in .NET (csharp) for a more controlled behaviour.
 
-Good think I didn't have to reinvent the wheel. I came across ExcelLibrary which made exporting XML to Excel a breeze. All I needed to do is to read all the XML file into a dataset via:
+Good thing I didn't have to reinvent the wheel. I came across [ExcelLibrary](https://code.google.com/p/excellibrary/) which made exporting XML to Excel a breeze. All I needed to do is to read all the XML file into a dataset via:
 
     DataSet ds = new DataSet();
 	ds.ReadXml("form_instance1.xml");
