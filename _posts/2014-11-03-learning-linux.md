@@ -8,6 +8,7 @@ categories: linux
 I've decided I should document common bash command I encounter every day.
 
 Here is the list:
+
 ```
 // list ports being listened to
 $ netstat -ntlp | grep LISTEN
