@@ -11,6 +11,7 @@ But how do you edit config files in a remote Ubuntu server from my Windows deskt
 Fortunately I came across this [post](https://holisticsecurity.wordpress.com/2012/09/03/open-files-ubuntu-root-from-winscp-remotely/).
 
 Just to make sure I had it recorded, these are the steps I did:
+
 1. SSHed to `192.168.x.x` 
 2. Edited the sudoer file: `sudo nano /etc/sudoers`
 3. Added the following at the end of the file:
