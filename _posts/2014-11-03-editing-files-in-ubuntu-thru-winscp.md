@@ -13,25 +13,17 @@ Fortunately I came across this [post](https://holisticsecurity.wordpress.com/201
 Just to make sure I had it recorded, these are the steps I did:
 
 
-1. This is a numbered list.
-2. I'm going to include a fenced code block as part of this bullet:
+1. SSHed to `192.168.x.x` 
+2. Edited the sudoer file: `sudo nano /etc/sudoers`
+3. Added the following at the end of the file:
 
     ```
     Code
     More Code
-    ```
-
-3. We can put fenced code blocks inside nested bullets, too.
-   1. Like this:
-   2. xxxx
-
-1. SSHed to `192.168.x.x` 
-2. Edited the sudoer file: `sudo nano /etc/sudoers`
-3. Added the following at the end of the file:
-    ```
-    ### added by ghelo 03 nov 2014
+    added by ghelo 03 nov 2014
     systems1 ALL=NOPASSWD: /usr/lib/openssh/sftp-server
     ```
+
 4. Launched WinSCP in the remote client
 5. Entered login credentials as we normally would
 6. In the **advanced button**, clicked SFTP and entered `/usr/lib/openssh/sftp-server` in the Protocol options > SFTP server
