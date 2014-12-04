@@ -18,9 +18,7 @@ Just to make sure I had it recorded, these are the steps I did:
 3. Added the following at the end of the file:
 
     ```
-    Code
-    More Code
-    added by ghelo 03 nov 2014
+    ###added by ghelo 03 nov 2014
     systems1 ALL=NOPASSWD: /usr/lib/openssh/sftp-server
     ```
 
