@@ -12,6 +12,19 @@ Fortunately I came across this [post](https://holisticsecurity.wordpress.com/201
 
 Just to make sure I had it recorded, these are the steps I did:
 
+
+1. This is a numbered list.
+2. I'm going to include a fenced code block as part of this bullet:
+
+    ```
+    Code
+    More Code
+    ```
+
+3. We can put fenced code blocks inside nested bullets, too.
+   1. Like this:
+   2. xxxx
+
 1. SSHed to `192.168.x.x` 
 2. Edited the sudoer file: `sudo nano /etc/sudoers`
 3. Added the following at the end of the file:
