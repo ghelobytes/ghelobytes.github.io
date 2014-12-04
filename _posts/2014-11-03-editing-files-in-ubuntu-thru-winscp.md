@@ -15,10 +15,10 @@ Just to make sure I had it recorded, these are the steps I did:
 1. SSHed to `192.168.x.x` 
 2. Edited the sudoer file: `sudo nano /etc/sudoers`
 3. Added the following at the end of the file:
-   ```
-   ### added by ghelo 03 nov 2014
-   systems1 ALL=NOPASSWD: /usr/lib/openssh/sftp-server
-   ```
+    ```
+    ### added by ghelo 03 nov 2014
+    systems1 ALL=NOPASSWD: /usr/lib/openssh/sftp-server
+    ```
 4. Launched WinSCP in the remote client
 5. Entered login credentials as we normally would
 6. In the **advanced button**, clicked SFTP and entered `/usr/lib/openssh/sftp-server` in the Protocol options > SFTP server
