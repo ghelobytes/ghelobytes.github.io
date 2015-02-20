@@ -24,7 +24,7 @@ Just to make sure I had it recorded, these are the steps I did:
 
 4. Launched WinSCP in the remote client
 5. Entered login credentials as we normally would
-6. In the **advanced button**, clicked SFTP and entered `/usr/lib/openssh/sftp-server` in the Protocol options > SFTP server
+6. In the **advanced button**, clicked SFTP and entered `sudo /usr/lib/openssh/sftp-server` in the Protocol options > SFTP server
 7. Click Login
 8. Done
 
