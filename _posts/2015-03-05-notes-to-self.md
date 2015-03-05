@@ -5,6 +5,7 @@ date:   2015-03-05
 categories: programming
 ---
 
+
 ### Python
 - Remove extra spaces in string
 ```
