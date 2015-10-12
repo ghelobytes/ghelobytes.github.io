@@ -1,0 +1,1351 @@
+{
+  "slides": [
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 67,
+          "y": 64,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 248,
+          "text": "<font color=\"#02ed0d\"><b>Intro to <br><div style=\"text-align: center;\"><b>GIS</b></div></b></font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 437,
+          "y": 630,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 48,
+          "text": "<font color=\"#eeeeee\"><i>(sort of)</i></font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 0,
+      "selected": false,
+      "active": false,
+      "markdown": "",
+      "x": 181,
+      "y": 180
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 5,
+          "y": 279,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 175,
+          "text": "<font color=\"#02ed0d\"><b>expectations</b></font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 1,
+      "selected": false,
+      "active": false,
+      "markdown": "",
+      "x": 174,
+      "y": 390
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 172,
+          "y": 16,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 77,
+          "text": "<div style=\"text-align: center;\"><span style=\"color: rgb(238, 238, 238);\">real-world use cases</span></div><font color=\"#eeeeee\"><div style=\"text-align: center;\">mapping tools</div><div style=\"text-align: center;\">analytics</div><div style=\"text-align: center;\">&gt; lng lat</div><div style=\"text-align: center;\">GIS general info</div><div style=\"text-align: center;\">Google Maps API</div><div style=\"text-align: center;\">CartoDB.js</div><div style=\"text-align: center;\">QGIS</div></font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 2,
+      "selected": false,
+      "active": false,
+      "markdown": "",
+      "x": 172,
+      "y": 603
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 172,
+          "y": 245,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 232,
+          "text": "<font color=\"#02ed0d\"><b>reality</b></font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 3,
+      "selected": false,
+      "active": false,
+      "markdown": "",
+      "x": 174,
+      "y": 781
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 83,
+          "y": 44,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 108,
+          "text": "<div style=\"text-align: left;\"><span style=\"color: rgb(238, 238, 238);\">1 general concepts</span><br><span style=\"color: rgb(238, 238, 238);\">2 qgis</span><br><span style=\"color: rgb(238, 238, 238);\">3 google maps api</span><br><span style=\"color: rgb(238, 238, 238);\">4 cartodb</span><br><span style=\"color: rgb(238, 238, 238);\">5 project</span><br></div>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 4,
+      "selected": false,
+      "active": false,
+      "markdown": "",
+      "x": 490,
+      "y": 259
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 260,
+          "y": 172,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 96,
+          "text": "<font color=\"#02ed0d\"><b>the G in GIS<br></b></font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 43,
+          "y": 266,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 198,
+          "text": "<font color=\"#02ed0d\"><b>geography</b></font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 5,
+      "selected": false,
+      "active": false,
+      "markdown": "",
+      "x": 488,
+      "y": 440
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 208,
+          "y": 298,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 144,
+          "text": "<div style=\"text-align: center;\"><span style=\"color: rgb(238, 238, 238);\">a study of</span></div>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 6,
+      "selected": false,
+      "active": false,
+      "markdown": "",
+      "x": 484,
+      "y": 626
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 55,
+          "y": 186,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 110,
+          "text": "<div style=\"text-align: center;\"><font color=\"#eeeeee\">the physical&nbsp;</font></div><div style=\"text-align: center;\"><font color=\"#eeeeee\">features of earth&nbsp;</font></div><div style=\"text-align: center;\"><font color=\"#eeeeee\">and its atmosphere</font></div>",
+          "selected": false,
+          "rotate": 0
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 7,
+      "selected": false,
+      "active": false,
+      "markdown": "",
+      "x": 485,
+      "y": 809
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 115,
+          "y": 298,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 144,
+          "text": "<font color=\"#02ed0d\"><b>GIS industry</b></font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 8,
+      "selected": false,
+      "active": false,
+      "markdown": "",
+      "x": 746,
+      "y": 124
+    },
+    {
+      "components": [
+        {
+          "src": "https://docs.google.com/a/cloudsherpas.com/uc?authuser=0&id=0B4Egc8w2WDCMZDNYcVczOVcyY2s&export=download",
+          "type": "Image",
+          "x": 15,
+          "y": 138,
+          "scale": {
+            "x": 1.3450608930987822,
+            "y": 1.3450608930987822,
+            "width": 994,
+            "height": 258.25169147496615
+          },
+          "imageType": "COM/UC",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 78,
+          "y": 464,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<font color=\"#eeeeee\">source: http://www.gislounge.com/gis-industry-trends/</font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 9,
+      "selected": false,
+      "active": false,
+      "markdown": "",
+      "x": 751,
+      "y": 295
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 21,
+          "y": 254,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 218,
+          "text": "<div style=\"text-align: center;\"><font color=\"#02ed0d\"><b>uses of gis</b></font></div>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 10,
+      "selected": false,
+      "active": false,
+      "markdown": "",
+      "x": 752,
+      "y": 464
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 144,
+          "y": 46,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 72,
+          "text": "<div style=\"text-align: center;\"><span style=\"color: rgb(238, 238, 238);\">location intelligence</span></div><font color=\"#eeeeee\"><div style=\"text-align: center;\">planning</div><div style=\"text-align: center;\">parking</div><div style=\"text-align: center;\">highway maintenance</div><div style=\"text-align: center;\">emergency planning</div><div style=\"text-align: center;\">transport</div><div style=\"text-align: center;\">environmental</div><div style=\"text-align: center;\">archeological</div><div style=\"text-align: center;\"><br></div></font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 11,
+      "selected": false,
+      "active": false,
+      "markdown": "",
+      "x": 764,
+      "y": 629
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 216,
+          "y": 40,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 72,
+          "text": "<div style=\"text-align: center;\"><font color=\"#eeeeee\">store locations</font></div><div style=\"text-align: center;\"><font color=\"#eeeeee\">routes</font></div><div style=\"text-align: center;\"><font color=\"#eeeeee\">oil/petroleum</font></div><div style=\"text-align: center;\"><font color=\"#eeeeee\">telecommunication</font></div><div style=\"text-align: center;\"><font color=\"#eeeeee\">water</font></div><div style=\"text-align: center;\"><font color=\"#eeeeee\">gas &amp; electric</font></div><div style=\"text-align: center;\"><font color=\"#eeeeee\">education</font></div><div style=\"text-align: center;\"><font color=\"#eeeeee\"><br></font></div>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 12,
+      "selected": false,
+      "active": false,
+      "markdown": "",
+      "x": 750,
+      "y": 828
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 229,
+          "y": 211,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 144,
+          "text": "<div style=\"text-align: center;\"><b style=\"color: rgb(2, 237, 13);\">where is&nbsp;</b></div><font color=\"#02ed0d\"><div style=\"text-align: center;\"><b>la roma?</b></div></font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 13,
+      "selected": false,
+      "active": false,
+      "markdown": "",
+      "x": 994,
+      "y": 909
+    },
+    {
+      "components": [
+        {
+          "src": "https://docs.google.com/a/cloudsherpas.com/uc?authuser=0&id=0B4Egc8w2WDCMZHZ1a2Q5Nl9GZzg&export=download",
+          "type": "Image",
+          "x": 179,
+          "y": 33,
+          "scale": {
+            "x": 1.224264705882353,
+            "y": 1.224264705882353,
+            "width": 666,
+            "height": 702.7279411764706
+          },
+          "imageType": "COM/UC",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 14,
+      "selected": false,
+      "active": false,
+      "markdown": "",
+      "x": 1085,
+      "y": 140
+    },
+    {
+      "components": [
+        {
+          "src": "https://docs.google.com/a/cloudsherpas.com/uc?authuser=0&id=0B4Egc8w2WDCMXzRONHlSVngxWDQ&export=download",
+          "type": "Image",
+          "x": 237,
+          "y": 24,
+          "scale": {
+            "x": 1.1754385964912282,
+            "y": 1.1754385964912282,
+            "width": 536,
+            "height": 725.2456140350878
+          },
+          "imageType": "COM/UC",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 15,
+      "selected": false,
+      "active": false,
+      "markdown": "",
+      "x": 1083,
+      "y": 318
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 177,
+          "y": 205,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 149,
+          "text": "<div style=\"text-align: center;\"><b style=\"color: rgb(2, 237, 13);\">boundary&nbsp;</b></div><font color=\"#02ed0d\"><b><div style=\"text-align: center;\"><b>disputes</b></div></b></font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 16,
+      "selected": false,
+      "active": false,
+      "markdown": "",
+      "x": 1082,
+      "y": 495
+    },
+    {
+      "components": [
+        {
+          "src": "https://docs.google.com/a/cloudsherpas.com/uc?authuser=0&id=0B4Egc8w2WDCMZGViWWZhNXlEU3M&export=download",
+          "type": "Image",
+          "x": 98,
+          "y": 134,
+          "scale": {
+            "x": 1.508196721311475,
+            "y": 1.508196721311475,
+            "width": 827.9999999999998,
+            "height": 500.7213114754097
+          },
+          "imageType": "COM/UC",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 17,
+      "selected": false,
+      "active": false,
+      "x": 4940,
+      "y": 740
+    },
+    {
+      "components": [
+        {
+          "src": "https://docs.google.com/a/cloudsherpas.com/uc?authuser=0&id=0B4Egc8w2WDCMdzUyWWpRaDBMRVk&export=download",
+          "type": "Image",
+          "x": 84,
+          "y": 116,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "COM/UC",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 95,
+          "y": 7,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 72,
+          "text": "<a href=\"http://www.un.org/Depts/los/clcs_new/submissions_files/phl22_09/phl_esummary.pdf\" target=\"_blank\"><font color=\"#eeeeee\">extended continental shelf</font></a><br>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 18,
+      "selected": false,
+      "active": false,
+      "x": 5220,
+      "y": 1020
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 68,
+          "y": 154,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 191,
+          "text": "<div style=\"text-align: center;\"><b style=\"color: rgb(2, 237, 13);\">spatial&nbsp;</b></div><font color=\"#02ed0d\"><div style=\"text-align: center;\"><b>data types</b></div></font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 19,
+      "selected": false,
+      "active": false,
+      "markdown": "",
+      "x": 1083,
+      "y": 668
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 160,
+          "y": 71,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 144,
+          "text": "<font color=\"#02ed0d\"><b>raster data</b></font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 191,
+          "y": 321,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<div style=\"text-align: center;\"><span style=\"color: rgb(238, 238, 238);\">data represented using</span></div><font color=\"#eeeeee\"><div style=\"text-align: center;\">grid /cell</div></font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 20,
+      "selected": false,
+      "active": false,
+      "markdown": "",
+      "x": 1376,
+      "y": 111
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 266,
+          "y": 333,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font color=\"#eeeeee\">data represented<br>using coordinates<br></font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 145,
+          "y": 71,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 144,
+          "text": "<font color=\"#02ed0d\"><b>vector data</b></font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 21,
+      "selected": false,
+      "active": false,
+      "markdown": "",
+      "x": 1378,
+      "y": 301
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 54,
+          "y": 150,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 125,
+          "text": "<div style=\"text-align: center;\"><b><i><font color=\"#eeeeee\">\"most of the time,</font></i></b></div><i><font color=\"#eeeeee\"><div style=\"text-align: center;\"><b>we'll deal with</b></div><b><div style=\"text-align: center;\"><b>vector data\"</b></div></b></font></i>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 22,
+      "selected": false,
+      "active": false,
+      "markdown": "",
+      "x": 1407,
+      "y": 482
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 10,
+          "y": 137,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 206,
+          "text": "<div style=\"text-align: center;\"><b style=\"color: rgb(2, 237, 13);\">coordinate</b></div><font color=\"#02ed0d\"><div style=\"text-align: center;\"><b>sytem</b></div></font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 23,
+      "selected": false,
+      "active": false,
+      "markdown": "",
+      "x": 1392,
+      "y": 674
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 211,
+          "y": -55,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 223,
+          "text": "<div style=\"text-align: center;\"><b style=\"color: rgb(2, 237, 13);\">x,y</b></div><font color=\"#02ed0d\"><b><div style=\"text-align: center;\"><b>lng,lat</b></div><div style=\"text-align: center;\"><b>ew,ns</b></div><div style=\"text-align: center;\"><b><br></b></div></b></font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 24,
+      "selected": false,
+      "active": false,
+      "markdown": "",
+      "x": 1385,
+      "y": 854
+    },
+    {
+      "components": [
+        {
+          "src": "https://docs.google.com/a/cloudsherpas.com/uc?authuser=0&id=0B4Egc8w2WDCMekdRSEJwREZjUVE&export=download",
+          "type": "Image",
+          "x": 149,
+          "y": 66,
+          "scale": {
+            "x": 2.9392712550607287,
+            "y": 2.9392712550607287,
+            "width": 726,
+            "height": 629.0040485829959
+          },
+          "imageType": "COM/UC",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 25,
+      "selected": false,
+      "active": false,
+      "markdown": "",
+      "x": 2006,
+      "y": 38
+    },
+    {
+      "components": [
+        {
+          "src": "https://docs.google.com/a/cloudsherpas.com/uc?authuser=0&id=0B4Egc8w2WDCMUkhVQUMzaWF0eFE&export=download",
+          "type": "Image",
+          "x": 190,
+          "y": 79,
+          "scale": {
+            "x": 2.4301886792452834,
+            "y": 2.4301886792452834,
+            "width": 644.0000000000001,
+            "height": 609.9773584905661
+          },
+          "imageType": "COM/UC",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 26,
+      "selected": false,
+      "active": false,
+      "x": 7460,
+      "y": 1300
+    },
+    {
+      "components": [
+        {
+          "src": "https://docs.google.com/a/cloudsherpas.com/uc?authuser=0&id=0B4Egc8w2WDCMRzVHRk04SDdZTDQ&export=download",
+          "type": "Image",
+          "x": 117,
+          "y": 78,
+          "scale": {
+            "x": 1.7913832199546484,
+            "y": 1.7913832199546484,
+            "width": 790,
+            "height": 612.6530612244898
+          },
+          "imageType": "COM/UC",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 27,
+      "selected": false,
+      "active": false,
+      "x": 7740,
+      "y": 1300
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 130,
+          "y": 211,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 144,
+          "text": "<div style=\"text-align: center;\"><b style=\"color: rgb(2, 237, 13);\">geographic</b></div><font color=\"#02ed0d\"><div style=\"text-align: center;\"><b>coordinates</b></div></font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 28,
+      "selected": false,
+      "active": false,
+      "markdown": "",
+      "x": 1684,
+      "y": 53
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 224,
+          "y": 269,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 96,
+          "text": "<div style=\"text-align: center;\"><font color=\"#eeeeee\">14.0051165</font></div><div style=\"text-align: center;\"><font color=\"#eeeeee\">120.9994977</font></div>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 29,
+      "selected": false,
+      "active": false,
+      "markdown": "",
+      "x": 8300,
+      "y": 1300
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 130,
+          "y": 211,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 144,
+          "text": "<div style=\"text-align: center;\"><b style=\"color: rgb(2, 237, 13);\">mercator</b></div><font color=\"#02ed0d\"><div style=\"text-align: center;\"><b>coordinates</b></div></font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 30,
+      "selected": false,
+      "active": false,
+      "markdown": "",
+      "x": 1742,
+      "y": 762
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 168,
+          "y": 269,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 96,
+          "text": "<div style=\"text-align: center;\"><span style=\"color: rgb(238, 238, 238);\">1574216.54816</span></div><font color=\"#eeeeee\"><div style=\"text-align: center;\">13469658.386</div></font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 31,
+      "selected": false,
+      "active": false,
+      "x": 2121,
+      "y": 427
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 97,
+          "y": 101,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 236,
+          "text": "<div style=\"text-align: center;\"><b style=\"color: rgb(2, 237, 13);\">data</b></div><font color=\"#02ed0d\"><div style=\"text-align: center;\"><b>formats</b></div></font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 32,
+      "selected": false,
+      "active": false,
+      "markdown": "",
+      "x": 2141,
+      "y": 233
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 184,
+          "y": 17,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 144,
+          "text": "<div style=\"text-align: center;\"><span style=\"color: rgb(238, 238, 238);\">shape files</span></div><font color=\"#eeeeee\"><div style=\"text-align: center;\">kml</div><div style=\"text-align: center;\">geojson</div><div style=\"text-align: center;\">geotiff</div></font><br>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 33,
+      "selected": false,
+      "active": false,
+      "markdown": "",
+      "x": 1808,
+      "y": 275
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 114,
+          "y": 243,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 236,
+          "text": "<div style=\"text-align: center;\"><font color=\"#02ed0d\"><b>storage</b></font></div>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 34,
+      "selected": false,
+      "active": false,
+      "markdown": "",
+      "x": 1744,
+      "y": 535
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 176,
+          "y": 125,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 144,
+          "text": "<div style=\"text-align: center;\"></div><font color=\"#eeeeee\"><div style=\"text-align: center;\">file system</div><div style=\"text-align: center;\">rdbms</div><div style=\"text-align: center;\">nosql</div></font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 35,
+      "selected": false,
+      "active": false,
+      "markdown": "",
+      "x": 1468,
+      "y": 1045
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 95,
+          "y": 245,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 209,
+          "text": "<font color=\"#02ed0d\"><b>geoJSON</b></font><br>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 36,
+      "selected": false,
+      "active": false,
+      "markdown": "",
+      "x": 10260,
+      "y": 1860
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 195,
+          "y": 249,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 144,
+          "text": "<div style=\"text-align: center;\"></div><font color=\"#eeeeee\"><div style=\"text-align: center;\">geojson.io</div></font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 37,
+      "selected": false,
+      "active": false,
+      "markdown": "",
+      "x": 10540,
+      "y": 1860
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 159,
+          "y": 259,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 209,
+          "text": "<b><font color=\"#db193b\">activity</font></b><br>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 38,
+      "selected": false,
+      "active": false,
+      "markdown": "",
+      "x": 10820,
+      "y": 1860
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 103,
+          "y": 143,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<div style=\"text-align: center;\"></div><font color=\"#eeeeee\"><div style=\"text-align: center;\">1 country you claim your own<br></div><div style=\"text-align: center;\">(name)</div></font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 210,
+          "y": 13,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 88,
+          "text": "<div style=\"text-align: center;\"></div><font color=\"#eeeeee\"><div style=\"text-align: center;\">create 3 dataset</div></font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 99,
+          "y": 307,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<div style=\"text-align: center;\"></div><font color=\"#eeeeee\"><div style=\"text-align: center;\">2 schools you went since birth<br></div><div style=\"text-align: center;\">(name, last_date_attended)</div></font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 99,
+          "y": 484,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<div style=\"text-align: center;\"></div><font color=\"#eeeeee\"><div style=\"text-align: center;\">3 roads from your home to CS<br></div><div style=\"text-align: center;\">(name)</div></font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 116,
+          "y": 700,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 51,
+          "text": "<div style=\"text-align: center;\"></div><font color=\"#eeeeee\"><div style=\"text-align: center;\"><b>save as KML, SHAPE FILE, GEOJSON</b></div></font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 39,
+      "selected": true,
+      "active": true,
+      "markdown": "",
+      "x": 2224,
+      "y": 845
+    }
+  ],
+  "background": "bg-custom-333333",
+  "activeSlide": {
+    "components": [
+      {
+        "TextBox": {},
+        "x": 103,
+        "y": 143,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "type": "TextBox",
+        "size": 64,
+        "text": "<div style=\"text-align: center;\"></div><font color=\"#eeeeee\"><div style=\"text-align: center;\">1 country you claim your own<br></div><div style=\"text-align: center;\">(name)</div></font>",
+        "selected": false
+      },
+      {
+        "TextBox": {},
+        "x": 210,
+        "y": 13,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "type": "TextBox",
+        "size": 88,
+        "text": "<div style=\"text-align: center;\"></div><font color=\"#eeeeee\"><div style=\"text-align: center;\">create 3 dataset</div></font>",
+        "selected": false
+      },
+      {
+        "TextBox": {},
+        "x": 99,
+        "y": 307,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "type": "TextBox",
+        "size": 64,
+        "text": "<div style=\"text-align: center;\"></div><font color=\"#eeeeee\"><div style=\"text-align: center;\">2 schools you went since birth<br></div><div style=\"text-align: center;\">(name, last_date_attended)</div></font>",
+        "selected": false
+      },
+      {
+        "TextBox": {},
+        "x": 99,
+        "y": 484,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "type": "TextBox",
+        "size": 64,
+        "text": "<div style=\"text-align: center;\"></div><font color=\"#eeeeee\"><div style=\"text-align: center;\">3 roads from your home to CS<br></div><div style=\"text-align: center;\">(name)</div></font>",
+        "selected": false
+      },
+      {
+        "TextBox": {},
+        "x": 116,
+        "y": 700,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "type": "TextBox",
+        "size": 51,
+        "text": "<div style=\"text-align: center;\"></div><font color=\"#eeeeee\"><div style=\"text-align: center;\"><b>save as KML, SHAPE FILE, GEOJSON</b></div></font>",
+        "selected": false
+      }
+    ],
+    "z": 0,
+    "impScale": 3,
+    "rotateX": 0,
+    "rotateY": 0,
+    "rotateZ": 0,
+    "index": 39,
+    "selected": true,
+    "active": true,
+    "markdown": "",
+    "x": 2224,
+    "y": 845
+  },
+  "fileName": "intro-to-gis.strut",
+  "surface": "bg-surf-grad-light",
+  "customStylesheet": ".strut-surface .bg-surf-grad-black {\n\tbackground-color: #000;\n\t/*background-image: -webkit-radial-gradient(#333, #111);\n\tbackground-image: -moz-radial-gradient(#333, #111);\n\tbackground-image: -ms-radial-gradient(#333, #111);\n\tbackground-image: -o-radial-gradient(#333, #111);\n\tbackground-image: radial-gradient(#333, #111);*/\n.strut-surface }\n\n.bg-surf-grad-light {\n\tbackground-color: #000;\n\t/*background-image: -webkit-radial-gradient(#FFF, #DDD);\n\tbackground-image: -moz-radial-gradient(#FFF, #DDD);\n\tbackground-image: -ms-radial-gradient(#FFF, #DDD);\n\tbackground-image: -o-radial-gradient(#FFF, #DDD);\n\tbackground-image: radial-gradient(#FFF, #DDD);*/\n.strut-surface }",
+  "deckVersion": "1.0",
+  "customBackgrounds": {
+    "bgs": [
+      {
+        "klass": "bg-custom-333333",
+        "style": "#333333"
+      }
+    ]
+  },
+  "overviewX": 5496,
+  "overviewY": 949
+}
