@@ -1420,7 +1420,7 @@
         {
           "TextBox": {},
           "x": 146,
-          "y": 133,
+          "y": 146,
           "scale": {
             "x": 1,
             "y": 1
@@ -1504,10 +1504,732 @@
       "rotateY": 0,
       "rotateZ": 0,
       "index": 47,
-      "selected": true,
-      "active": true,
+      "selected": false,
+      "active": false,
       "x": 623,
       "y": 1702
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 243,
+          "y": 245,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 209,
+          "text": "<font color=\"#02ed0d\"><b>Day 4</b></font><br>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 48,
+      "selected": false,
+      "active": false,
+      "x": 877,
+      "y": 1696
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 94,
+          "y": 221,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 272,
+          "text": "<div style=\"text-align: center;\"><font color=\"#02ed0d\"><b>review</b></font></div>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 49,
+      "selected": false,
+      "active": false,
+      "x": 1132,
+      "y": 1696
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 37,
+          "y": 265,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 85,
+          "text": "<div style=\"text-align: center;\"><font color=\"#eeeeee\">describes the structure of</font></div><div style=\"text-align: center;\"><font color=\"#eeeeee\">a spatial object</font></div>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 175,
+          "y": 8,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 156,
+          "text": "<div style=\"text-align: center;\"><font color=\"#02ed0d\"><b>geometry</b></font></div>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 50,
+      "selected": false,
+      "active": false,
+      "x": 126,
+      "y": 1880
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 28,
+          "y": 264,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 96,
+          "text": "<div style=\"text-align: center;\"><font color=\"#eeeeee\">detailed data about the</font></div><div style=\"text-align: center;\"><font color=\"#eeeeee\">geometry</font></div>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 197,
+          "y": 7,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 156,
+          "text": "<div style=\"text-align: center;\"><font color=\"#02ed0d\"><b>attribute</b></font></div>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 51,
+      "selected": false,
+      "active": false,
+      "x": 387,
+      "y": 1869
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 115,
+          "y": 259,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 91,
+          "text": "<div style=\"text-align: center;\"><font color=\"#eeeeee\">refers to a single</font></div><div style=\"text-align: center;\"><font color=\"#eeeeee\">spatial object</font></div><div style=\"text-align: center;\"><font color=\"#eeeeee\"><br></font></div><div style=\"text-align: center;\"><font color=\"#eeeeee\">geometry</font><font color=\"#db193b\">+</font><font color=\"#eeeeee\">attribute</font></div>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 254,
+          "y": 12,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 156,
+          "text": "<div style=\"text-align: center;\"><font color=\"#02ed0d\"><b>feature</b></font></div>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 52,
+      "selected": false,
+      "active": false,
+      "x": 638,
+      "y": 1869
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 59,
+          "y": 237,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 90,
+          "text": "<div style=\"text-align: center;\"><font color=\"#eeeeee\">is actually composed of</font></div><div style=\"text-align: center;\"><font color=\"#eeeeee\">3 different files</font></div><div style=\"text-align: center;\"><font color=\"#eeeeee\"><br></font></div><div style=\"text-align: center;\"><font color=\"#db193b\">.</font><font color=\"#eeeeee\">shp </font><font color=\"#db193b\">.</font><font color=\"#eeeeee\">shx </font><font color=\"#db193b\">.</font><font color=\"#eeeeee\">dbf</font></div>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 196,
+          "y": 8,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 156,
+          "text": "<div style=\"text-align: center;\"><font color=\"#02ed0d\"><b>shapefile</b></font></div>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 53,
+      "selected": false,
+      "active": false,
+      "x": 880,
+      "y": 1861
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 149,
+          "y": 237,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 90,
+          "text": "<div style=\"text-align: center;\"><font color=\"#eeeeee\">legacy format</font></div><div style=\"text-align: center;\"><font color=\"#eeeeee\">very very common</font></div><div style=\"text-align: center;\"><font color=\"#eeeeee\"><br></font></div><div style=\"text-align: center;\"><font color=\"#eeeeee\">courtesy of ESRI</font></div>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 196,
+          "y": 8,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 156,
+          "text": "<div style=\"text-align: center;\"><font color=\"#02ed0d\"><b>shapefile</b></font></div>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 54,
+      "selected": false,
+      "active": false,
+      "x": 1132,
+      "y": 1861
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 87,
+          "y": 237,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 68,
+          "text": "<div style=\"text-align: center;\"><font color=\"#eeeeee\">spatial data interchange <br>format&nbsp;</font><span style=\"color: rgb(238, 238, 238);\">of choice</span></div><div style=\"text-align: center;\"><span style=\"color: rgb(238, 238, 238);\"><br></span></div><div style=\"text-align: center;\"><font color=\"#eeeeee\">true at least on web mapping</font></div><div style=\"text-align: center;\"><font color=\"#eeeeee\">domain</font></div>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 242,
+          "y": 8,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 156,
+          "text": "<div style=\"text-align: center;\"><font color=\"#02ed0d\"><b>geojson</b></font></div>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 55,
+      "selected": false,
+      "active": false,
+      "x": 118,
+      "y": 2055
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 59,
+          "y": 237,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 93,
+          "text": "<div style=\"text-align: center;\"><font color=\"#eeeeee\">file system</font></div><div style=\"text-align: center;\"><font color=\"#eeeeee\"><br></font></div><div style=\"text-align: center;\"><font color=\"#eeeeee\">geojson, kml, shapefile</font></div>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 217,
+          "y": 8,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 156,
+          "text": "<div style=\"text-align: center;\"><font color=\"#02ed0d\"><b>storage</b></font></div>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 56,
+      "selected": false,
+      "active": false,
+      "x": 376,
+      "y": 2043
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 225,
+          "y": 208,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 68,
+          "text": "<div style=\"text-align: center;\"><font color=\"#eeeeee\">rdbms</font></div><div style=\"text-align: center;\"><font color=\"#eeeeee\"><br></font></div><div style=\"text-align: center;\"><font color=\"#eeeeee\">mysql</font></div><div style=\"text-align: center;\"><font color=\"#eeeeee\">postgres w/ postgis</font></div><div style=\"text-align: center;\"><font color=\"#eeeeee\">oracle</font></div><div style=\"text-align: center;\"><font color=\"#eeeeee\">sql server</font></div>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 249,
+          "y": 8,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 156,
+          "text": "<div style=\"text-align: center;\"><font color=\"#02ed0d\"><b>storage</b></font></div>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 57,
+      "selected": false,
+      "active": false,
+      "x": 641,
+      "y": 2035
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 150,
+          "y": 237,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 68,
+          "text": "<div style=\"text-align: center;\"><font color=\"#eeeeee\">data laid out on a map</font></div><div style=\"text-align: center;\"><font color=\"#eeeeee\"><br></font></div><div style=\"text-align: center;\"><font color=\"#eeeeee\">can be an </font><font color=\"#db193b\">operational</font><font color=\"#eeeeee\"> or&nbsp;</font></div><div style=\"text-align: center;\"><font color=\"#db193b\">basemap</font><font color=\"#eeeeee\"> layer</font></div>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 301,
+          "y": 8,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 156,
+          "text": "<div style=\"text-align: center;\"><font color=\"#02ed0d\"><b>layers</b></font></div>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 58,
+      "selected": false,
+      "active": false,
+      "x": 893,
+      "y": 2031
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 150,
+          "y": 237,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 68,
+          "text": "<div style=\"text-align: center;\"><font color=\"#eeeeee\">styling applied to a layer</font></div><div style=\"text-align: center;\"><font color=\"#eeeeee\"><br></font></div><div style=\"text-align: center;\"><font color=\"#eeeeee\">point (icon)</font></div><div style=\"text-align: center;\"><font color=\"#eeeeee\">lines</font></div><div style=\"text-align: center;\"><font color=\"#eeeeee\">area fill</font></div><div style=\"text-align: center;\"><font color=\"#eeeeee\">color</font></div>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 135,
+          "y": 8,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 156,
+          "text": "<div style=\"text-align: center;\"><font color=\"#02ed0d\"><b>symbology</b></font></div>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 59,
+      "selected": false,
+      "active": false,
+      "x": 1146,
+      "y": 2035
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 135,
+          "y": 8,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 156,
+          "text": "<div style=\"text-align: center;\"><font color=\"#02ed0d\"><b>symbology</b></font></div>",
+          "selected": false
+        },
+        {
+          "src": "http://www.esri.com/news/arcuser/0911/graphics/mapchecklist_3_lg.jpg",
+          "type": "Image",
+          "x": 245,
+          "y": 192,
+          "scale": {
+            "x": 0.521484375,
+            "y": 0.521484375,
+            "width": 534,
+            "height": 543.908203125
+          },
+          "imageType": "JPG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 60,
+      "selected": false,
+      "active": false,
+      "x": 120,
+      "y": 2227
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": -6,
+          "y": 237,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 82,
+          "text": "<div style=\"text-align: center;\"><font color=\"#eeeeee\">load and preview spatial data</font></div><div style=\"text-align: center;\"><font color=\"#eeeeee\">&nbsp;perform data manipulation</font></div><div style=\"text-align: center;\"><font color=\"#eeeeee\">export to another format</font></div><div style=\"text-align: center;\"><font color=\"#eeeeee\">create data from scratch</font></div>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 116,
+          "y": 8,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 156,
+          "text": "<div style=\"text-align: center;\"><font color=\"#02ed0d\"><b>uses of qgis</b></font></div>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 61,
+      "selected": false,
+      "active": false,
+      "x": 381,
+      "y": 2217
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 79,
+          "y": 78,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 170,
+          "text": "<div style=\"text-align: center;\"><font color=\"#02ed0d\"><b>google&nbsp;</b></font><b style=\"color: rgb(2, 237, 13);\">map</b></div><div style=\"text-align: center;\"><font color=\"#02ed0d\"><b>engine</b></font></div><div style=\"text-align: center;\"><font color=\"#02ed0d\"><b>(gme)</b></font></div>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 62,
+      "selected": false,
+      "active": false,
+      "x": 638,
+      "y": 2216
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 11,
+          "y": 237,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 68,
+          "text": "<div style=\"text-align: center;\"><font color=\"#eeeeee\">online storage of spatial data</font></div><div style=\"text-align: center;\"><font color=\"#eeeeee\"><br></font></div><div style=\"text-align: center;\"><font color=\"#eeeeee\">deprecated as of </font><font color=\"#db193b\">20 January 2015</font></div>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 365,
+          "y": 8,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 156,
+          "text": "<div style=\"text-align: center;\"><font color=\"#02ed0d\"><b>gme</b></font></div>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 63,
+      "selected": false,
+      "active": false,
+      "x": 887,
+      "y": 2215
+    },
+    {
+      "components": [
+        {
+          "src": "https://d1rsup779elh6d.cloudfront.net/thecloud/wp-content/uploads/2015/03/cartodb-and-cloud-sherpas-1024x3721-1024x372.jpg",
+          "type": "Image",
+          "x": 0,
+          "y": 198,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "JPG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 64,
+      "selected": false,
+      "active": false,
+      "x": 1142,
+      "y": 2207
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 87,
+          "y": 236,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 68,
+          "text": "<div style=\"text-align: center;\"><font color=\"#eeeeee\">replacement of choice by CS</font></div><div style=\"text-align: center;\"><font color=\"#eeeeee\"><br></font></div><div style=\"text-align: center;\"><font color=\"#eeeeee\">SAAS</font></div><div style=\"text-align: center;\"><font color=\"#eeeeee\"><br></font></div><div style=\"text-align: center;\"><font color=\"#eeeeee\">postgis, postgres,&nbsp;</font></div><div style=\"text-align: center;\"><font color=\"#eeeeee\">javascript, node.js</font></div>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 217,
+          "y": 8,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 156,
+          "text": "<div style=\"text-align: center;\"><font color=\"#02ed0d\"><b>cartodb</b></font></div>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 65,
+      "selected": false,
+      "active": false,
+      "x": 117,
+      "y": 2399
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 159,
+          "y": 259,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 209,
+          "text": "<b><font color=\"#db193b\">activity</font></b><br>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 66,
+      "selected": true,
+      "active": true,
+      "x": 366,
+      "y": 2390
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 20,
+          "y": 118,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 80,
+          "text": "<div style=\"text-align: center;\"><font color=\"#eeeeee\">using </font><font color=\"#db193b\">dotc.gov.ph</font><font color=\"#eeeeee\"> open data,</font></div><div style=\"text-align: center;\"><font color=\"#eeeeee\"><br></font></div><div style=\"text-align: center;\"><font color=\"#eeeeee\">map out </font><font color=\"#db193b\">mrt3</font><font color=\"#eeeeee\">'s monthly</font></div><div style=\"text-align: center;\"><font color=\"#eeeeee\">passenger traffic in 2014</font></div>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 67,
+      "selected": false,
+      "active": false,
+      "x": 626,
+      "y": 2389
     }
   ],
   "background": "bg-custom-000000",
@@ -1515,28 +2237,15 @@
     "components": [
       {
         "TextBox": {},
-        "x": 132,
-        "y": 85,
+        "x": 159,
+        "y": 259,
         "scale": {
           "x": 1,
           "y": 1
         },
         "type": "TextBox",
-        "size": 88,
-        "text": "<div style=\"text-align: center;\"></div><div style=\"text-align: center;\"><font color=\"#eeeeee\">1. signup @&nbsp;</font></div><div style=\"text-align: center;\"><font color=\"#db193b\">discoverspatial.com</font></div>",
-        "selected": false
-      },
-      {
-        "TextBox": {},
-        "x": 71,
-        "y": 351,
-        "scale": {
-          "x": 1,
-          "y": 1
-        },
-        "type": "TextBox",
-        "size": 88,
-        "text": "<div style=\"text-align: center;\"></div><div style=\"text-align: center;\"><span style=\"text-align: left; color: rgb(238, 238, 238);\">2. complete the course&nbsp;</span></div><div style=\"text-align: center;\"><font color=\"#db193b\">CartoDB.js from&nbsp;</font></div><div style=\"text-align: center;\"><font color=\"#db193b\">the Ground Up</font></div>",
+        "size": 209,
+        "text": "<b><font color=\"#db193b\">activity</font></b><br>",
         "selected": false
       }
     ],
@@ -1545,11 +2254,11 @@
     "rotateX": 0,
     "rotateY": 0,
     "rotateZ": 0,
-    "index": 47,
+    "index": 66,
     "selected": true,
     "active": true,
-    "x": 623,
-    "y": 1702
+    "x": 366,
+    "y": 2390
   },
   "fileName": "intro-to-gis.strut",
   "surface": "bg-surf-grad-light",
@@ -1558,15 +2267,11 @@
   "customBackgrounds": {
     "bgs": [
       {
-        "klass": "bg-custom-333333",
-        "style": "#333333"
-      },
-      {
         "klass": "bg-custom-000000",
         "style": "#000000"
       }
     ]
   },
-  "overviewX": 630,
-  "overviewY": 909.5
+  "overviewX": 631.5,
+  "overviewY": 1258
 }
