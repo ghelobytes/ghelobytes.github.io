@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Google Maps: Ground Overlays</title>
+        <script src="https://maps.googleapis.com/maps/api/js"></script>
+        <style>
+            html, body {
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            #map {
+                height: 100%;
+            }
+        </style>
+    </head>
+    <body onload="initMap()">
+        <div id="map"></div>
+        <script>
+            var map;
+            var mtsat;
+            var mapContainer = document.getElementById('map');
+
+            function initMap() {
+                map = new google.maps.Map(mapContainer, {
+                    zoom: 5,
+                    center: {
+                        lat: 14,
+                        lng: 121
+                    }
+                });
+                animateOverlay(map, 1000);
+            }
+
+
+
+            function animateOverlay(map, speed){
+                var overlay = null;
+
+                function add(url) {
+                    if(overlay)
+                        overlay.setMap(null);
+
+                    overlay = new google.maps.GroundOverlay(
+                        url,
+                        // bounds of image must be in form of SW, NE
+                        new google.maps.LatLngBounds(
+                            new google.maps.LatLng(-16.4357785, 89.91913962),
+                            new google.maps.LatLng(25.99149651, 150.0765496)
+                        ),
+                        {clickable : false}
+                    );
+
+                    overlay.setOpacity(0.5);
+                    overlay.setMap(map);
+                }
+
+                var images = [
+                    'http://www.goes.noaa.gov/sohemi/sohemiloops/irgmsw/1.jpg',
+                    'http://www.goes.noaa.gov/sohemi/sohemiloops/irgmsw/2.jpg',
+                    'http://www.goes.noaa.gov/sohemi/sohemiloops/irgmsw/3.jpg',
+                    'http://www.goes.noaa.gov/sohemi/sohemiloops/irgmsw/4.jpg',
+                    'http://www.goes.noaa.gov/sohemi/sohemiloops/irgmsw/5.jpg',
+                    'http://www.goes.noaa.gov/sohemi/sohemiloops/irgmsw/6.jpg',
+                    'http://www.goes.noaa.gov/sohemi/sohemiloops/irgmsw/7.jpg',
+                    'http://www.goes.noaa.gov/sohemi/sohemiloops/irgmsw/8.jpg',
+                ];
+
+                // add cache buster to image url to make sure we get the latest
+                // weather updates
+                for(var i in images) {
+                    images[i] = images[i] + '?' + new Date();
+                }
+
+
+                var index = 0;
+                setInterval(function() {
+                    add(images[index]);
+                    index = (index == images.length-1 ? 0: index+1);
+                }, speed);
+            }
+
+        </script>
+    </body>
+
+</html>
+
