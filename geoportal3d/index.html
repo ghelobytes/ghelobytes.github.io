@@ -10,7 +10,7 @@
   <title>Philippine Geoportal in 3D</title>
   <script src="https://cesiumjs.org/releases/1.30/Build/Cesium/Cesium.js"></script>
   <style>
-      @import url(http://cesiumjs.org/releases/1.30/Build/Cesium/Widgets/widgets.css);
+      @import url(https://cesiumjs.org/releases/1.30/Build/Cesium/Widgets/widgets.css);
       html, body, #cesiumContainer {
           width: 100%; height: 100%; margin: 0; padding: 0; overflow: hidden;
       }
@@ -22,7 +22,7 @@
     // var viewer = new Cesium.Viewer('cesiumContainer');
     var viewer = new Cesium.Viewer('cesiumContainer', {
         imageryProvider : new Cesium.UrlTemplateImageryProvider({
-            url : 'http://v2.geoportal.gov.ph/tiles/v2/PGP/{z}/{x}/{y}.png',
+            url : 'https://v2.geoportal.gov.ph/tiles/v2/PGP/{z}/{x}/{y}.png',
             credit : 'Map tiles by Philippine Geoportal Project - NAMRIA'
         }),
         baseLayerPicker : false,
