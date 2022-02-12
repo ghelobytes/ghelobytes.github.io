@@ -7,13 +7,13 @@ categories: programming
 
 This will be my "Things I Learned" series.
 
-### Python
+#### Python
 - Remove extra spaces in string
 
         my_string = " ".join(my_string.split())
 
 
-### Amazon S3
+#### Amazon S3
 - Always set metadata before setting file contents
 
         key.set_metadata('Content-Type', mimetypes.guess_type(filename)[0])
