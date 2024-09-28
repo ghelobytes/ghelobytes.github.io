@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YAML to JSON Patch Generator</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+    <script src="https://unpkg.com/rfc6902@3.0.4/dist/rfc6902.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+        textarea {
+            width: 100%;
+            margin: 10px 0;
+            font-size: small;
+        }
+        button {
+            padding: 10px 15px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>YAML to JSON Patch Generator</h1>
+    <form id="yamlForm">
+        <h3>Input YAML:</h3>
+        <textarea id="inputYaml" rows="10" placeholder="Enter input YAML here...">
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-app
+  labels:
+    app: my-app
+spec:
+  replicas: 3
+  template:
+    spec:
+      containers:
+        - name: my-container
+          image: my-app:1.0
+          resources:
+            limits:
+              memory: "512Mi"
+              cpu: "250m"
+          env:
+            - name: EXISTING_ENV_VAR
+              value: old-value
+
+        </textarea>
+        <h3>Desired YAML:</h3>
+        <textarea id="desiredYaml" rows="10" placeholder="Enter desired YAML here...">
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels: {}
+  name: my-app
+  namespace: local-dev-namespace
+spec:
+  replicas: 10
+  template:
+    spec:
+      containers:
+      - env:
+        - name: EXISTING_ENV_VAR
+          value: old-value
+        - name: NEW_ENV
+          value: development
+        image: my-image:2.0
+        name: my-container
+        resources:
+          limits:
+            cpu: 250m
+            memory: 512Mi
+        </textarea>
+        <br/>
+        <button type="button" onclick="generatePatch()">Generate YAML Patch</button>
+    </form>
+    <h3>Generated YAML Patch:</h3>
+    <textarea id="yamlPatchOutput" rows="10" readonly></textarea>
+    <br/>
+    <button class="copy-button" type="button" onclick="copyToClipboard()">Copy to Clipboard</button>
+
+
+    <script>
+        function generatePatch() {
+            const inputYaml = document.getElementById('inputYaml').value;
+            const desiredYaml = document.getElementById('desiredYaml').value;
+
+            try {
+                // Parse the YAML input
+                const inputObj = jsyaml.load(inputYaml);
+                const desiredObj = jsyaml.load(desiredYaml);
+
+                // Generate the JSON patch
+                const patch = rfc6902.createPatch(inputObj, desiredObj);
+
+                // Convert the patch to YAML and display it in the output area
+                const yamlPatch = jsyaml.dump(patch);
+                document.getElementById('yamlPatchOutput').textContent = yamlPatch;
+            } catch (error) {
+                document.getElementById('yamlPatchOutput').textContent = 'Error: ' + error.message;
+            }
+        }
+
+        function copyToClipboard() {
+            const patchOutput = document.getElementById('yamlPatchOutput');
+            patchOutput.select(); // Select the textarea content
+            document.execCommand('copy'); // Copy to clipboard
+
+            alert('YAML patch copied to clipboard!');
+        }
+    </script>
+</body>
+</html>
