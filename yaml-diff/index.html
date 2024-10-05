@@ -46,7 +46,7 @@ spec:
     spec:
       containers:
         - name: my-container
-          image: my-app: 1.0
+          image: my-app:1.0
           resources:
             limits:
               memory: "512Mi"
@@ -74,7 +74,7 @@ spec:
           value: old-value
         - name: NEW_ENV
           value: development
-        image: my-image: 2.0
+        image: my-image:2.0
         name: my-container
         resources:
           limits:
