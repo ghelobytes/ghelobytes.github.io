@@ -1,0 +1,306 @@
+{
+  "title": "Cross-Canada · 21 Days Relaxed (Superior)",
+  "subtitle": "Nanaimo → Nipigon ON → Nanaimo · mostly ≤5 h days · 21-day cap",
+  "attribution": {
+    "route": "Route geometry via OSRM / OpenStreetMap (outbound + return corridor)",
+    "stops": "Primary free overnight anchors curated from public iOverlander place pages",
+    "basemap": "OpenFreeMap / OpenStreetMap"
+  },
+  "stops": [
+    {
+      "id": "start",
+      "step": 0,
+      "kind": "start",
+      "name": "Departure Bay Ferry Terminal",
+      "label": "Start · Nanaimo",
+      "lat": 49.1912971,
+      "lng": -123.9537888,
+      "category": "Ferry Terminal",
+      "region": "Nanaimo, BC",
+      "overview": "Day 1 outbound ferry — and Day 21 return landing.",
+      "amenities": [
+        "Ferry",
+        "Parking",
+        "Washrooms"
+      ],
+      "description": "BC Ferries Departure Bay. Reserve outbound and Day 21 return. This version is a relaxed 21-day Superior loop (not Nova Scotia).",
+      "ioverlanderUrl": "https://ioverlander.com/places/7d23eb69-a7b0-49d6-a3fe-35417afbb99b",
+      "ioverlanderGuid": "7d23eb69-a7b0-49d6-a3fe-35417afbb99b",
+      "cost": "ferry fare",
+      "source": "itinerary"
+    },
+    {
+      "id": "ferry-arrival",
+      "step": 0,
+      "kind": "ferry",
+      "name": "Horseshoe Bay Ferry Terminal",
+      "label": "Ferry · Horseshoe Bay",
+      "lat": 49.3685581,
+      "lng": -123.2758982,
+      "category": "Ferry Terminal",
+      "region": "West Vancouver, BC",
+      "overview": "Mainland landing outbound; return ferry staging on Day 21.",
+      "amenities": [
+        "Ferry",
+        "Parking"
+      ],
+      "description": "Hwy 1 east outbound (~4.5 h to Kamloops). Return: board Departure Bay sailing.",
+      "ioverlanderUrl": "https://ioverlander.com/places/F04EE4C5-D11B-4EB1-B3E6-913899D6E3EA",
+      "ioverlanderGuid": "F04EE4C5-D11B-4EB1-B3E6-913899D6E3EA",
+      "cost": "ferry fare",
+      "source": "itinerary"
+    },
+    {
+      "id": "stop-1",
+      "step": 1,
+      "kind": "overnight",
+      "name": "Exhibition Park Baseball Fields",
+      "label": "Day 1 · Kamloops (free)",
+      "lat": 50.67518,
+      "lng": -120.31215,
+      "category": "Informal Campsite",
+      "region": "Kamloops, BC",
+      "overview": "~4.5 h from Horseshoe Bay.",
+      "amenities": [
+        "Free overnight (verify)",
+        "Parking lot"
+      ],
+      "description": "Exhibition Park baseball fields. Alternates: Sahali Mall or wild camping west of town.",
+      "ioverlanderUrl": "https://ioverlander.com/places/36d2f680-0d5d-462d-832c-e0e658a51811",
+      "ioverlanderGuid": "36d2f680-0d5d-462d-832c-e0e658a51811",
+      "cost": "free",
+      "source": "iOverlander"
+    },
+    {
+      "id": "stop-2",
+      "step": 2,
+      "kind": "overnight",
+      "name": "Golden Free RV Parking",
+      "label": "Day 2 · Golden (free)",
+      "lat": 51.3001,
+      "lng": -116.96462,
+      "category": "Short-term Parking",
+      "region": "Golden, BC",
+      "overview": "~4.9 h from Kamloops.",
+      "amenities": [
+        "Free RV parking"
+      ],
+      "description": "Free RV parking / overnight stationnement. Staging for Banff day.",
+      "ioverlanderUrl": "https://ioverlander.com/places/4e4185dc-8328-44f8-9774-17d36f1c82f5",
+      "ioverlanderGuid": "4e4185dc-8328-44f8-9774-17d36f1c82f5",
+      "cost": "free",
+      "source": "iOverlander"
+    },
+    {
+      "id": "stop-3",
+      "step": 3,
+      "kind": "overnight",
+      "name": "Canmore 17 Street Parking",
+      "label": "Day 3 · Canmore / Banff (free)",
+      "lat": 51.09716,
+      "lng": -115.35499,
+      "category": "Informal Campsite",
+      "region": "Canmore, AB",
+      "overview": "~2.3 h drive + Banff day-use.",
+      "amenities": [
+        "Free informal (verify)",
+        "Near Banff"
+      ],
+      "description": "Sleep in Canmore; day-trip Lake Louise / Banff. Backup: Tunnel Mountain Village II.",
+      "ioverlanderUrl": "https://ioverlander.com/places/f0c76d48-b203-4ff1-9a7f-40f36ad80540",
+      "ioverlanderGuid": "f0c76d48-b203-4ff1-9a7f-40f36ad80540",
+      "cost": "free",
+      "paidBackup": {
+        "name": "Tunnel Mountain Village II",
+        "url": "https://ioverlander.com/places/755c3f00-e1e7-4430-924b-ed0b8fe2483a"
+      },
+      "source": "iOverlander"
+    },
+    {
+      "id": "stop-4",
+      "step": 4,
+      "kind": "overnight",
+      "name": "Quiet Spot off Hwy — Medicine Hat",
+      "label": "Day 4 · Medicine Hat (free)",
+      "lat": 50.02242,
+      "lng": -110.70722,
+      "category": "Wild Camping",
+      "region": "Medicine Hat, AB",
+      "overview": "~4.8 h via Calgary.",
+      "amenities": [
+        "Free wild/informal"
+      ],
+      "description": "Quiet pull-off / visitor centre / Co-op. Paid backup: Gas City / Tillebrook.",
+      "ioverlanderUrl": "https://ioverlander.com/places/2c1c2e24-6040-4f06-85b8-ba66ae1aceb6",
+      "ioverlanderGuid": "2c1c2e24-6040-4f06-85b8-ba66ae1aceb6",
+      "cost": "free",
+      "source": "iOverlander"
+    },
+    {
+      "id": "stop-5",
+      "step": 5,
+      "kind": "overnight",
+      "name": "Swift Current Living Sky Casino",
+      "label": "Day 5 · Swift Current (free)",
+      "lat": 50.30329,
+      "lng": -107.78461,
+      "category": "Informal Campsite",
+      "region": "Swift Current, SK",
+      "overview": "~2.6 h — keeps Medicine Hat→Regina under 5 h.",
+      "amenities": [
+        "Free informal (verify)"
+      ],
+      "description": "Living Sky Casino lot. Skipping this makes MH→Regina ~5.3 h.",
+      "ioverlanderUrl": "https://ioverlander.com/places/0c05f8d5-c0e8-4d72-9baa-6bdf91390c58",
+      "ioverlanderGuid": "0c05f8d5-c0e8-4d72-9baa-6bdf91390c58",
+      "cost": "free",
+      "source": "iOverlander"
+    },
+    {
+      "id": "stop-6",
+      "step": 6,
+      "kind": "overnight",
+      "name": "Cabela's Regina",
+      "label": "Day 6 · Regina (free)",
+      "lat": 50.40457,
+      "lng": -104.65016,
+      "category": "Informal Campsite",
+      "region": "Regina, SK",
+      "overview": "~2.7 h from Swift Current.",
+      "amenities": [
+        "Free informal (verify)"
+      ],
+      "description": "Cabela's lot overnight.",
+      "ioverlanderUrl": "https://ioverlander.com/places/7af5472b-87bd-431f-816f-64ee3e3a05ea",
+      "ioverlanderGuid": "7af5472b-87bd-431f-816f-64ee3e3a05ea",
+      "cost": "free",
+      "source": "iOverlander"
+    },
+    {
+      "id": "stop-7",
+      "step": 7,
+      "kind": "overnight",
+      "name": "Dinsdale Park",
+      "label": "Day 7 · Brandon (free)",
+      "lat": 49.85208,
+      "lng": -99.94159,
+      "category": "Informal Campsite",
+      "region": "Brandon, MB",
+      "overview": "~4.5 h from Regina.",
+      "amenities": [
+        "Free informal (verify)"
+      ],
+      "description": "Dinsdale Park. Alternates: streetside laundry area, Brandon Hills entrance.",
+      "ioverlanderUrl": "https://ioverlander.com/places/E93994EF-F934-448D-8BAC-34C2988175D0",
+      "ioverlanderGuid": "E93994EF-F934-448D-8BAC-34C2988175D0",
+      "cost": "free",
+      "source": "iOverlander"
+    },
+    {
+      "id": "stop-8",
+      "step": 8,
+      "kind": "overnight",
+      "name": "Cabela’s Winnipeg",
+      "label": "Day 8 · Winnipeg (free)",
+      "lat": 49.83917,
+      "lng": -97.21941,
+      "category": "Informal Campsite",
+      "region": "Winnipeg, MB",
+      "overview": "~2.7 h from Brandon.",
+      "amenities": [
+        "Free informal (verify)"
+      ],
+      "description": "Cabela's lot. Alternate: Walmart. Verify overnight policy.",
+      "ioverlanderUrl": "https://ioverlander.com/places/a838e3f7-10da-4212-9166-6e17b27974ed",
+      "ioverlanderGuid": "a838e3f7-10da-4212-9166-6e17b27974ed",
+      "cost": "free",
+      "source": "iOverlander"
+    },
+    {
+      "id": "stop-9",
+      "step": 9,
+      "kind": "overnight",
+      "name": "Kenora Walmart",
+      "label": "Day 9 · Kenora (free)",
+      "lat": 49.75793,
+      "lng": -94.47212,
+      "category": "Informal Campsite",
+      "region": "Kenora, ON",
+      "overview": "~3.1 h from Winnipeg.",
+      "amenities": [
+        "Free informal (verify)"
+      ],
+      "description": "Walmart overnight. Next day stops at Ignace so Kenora→Thunder Bay never becomes ~7 h.",
+      "ioverlanderUrl": "https://ioverlander.com/places/c326711b-4cdc-46c3-a67c-61154c7d2bc3",
+      "ioverlanderGuid": "c326711b-4cdc-46c3-a67c-61154c7d2bc3",
+      "cost": "free",
+      "source": "iOverlander"
+    },
+    {
+      "id": "stop-10",
+      "step": 10,
+      "kind": "overnight",
+      "name": "Tolérance Hill Lookout",
+      "label": "Day 10 · Ignace (free)",
+      "lat": 49.40419,
+      "lng": -91.62698,
+      "category": "Informal Campsite",
+      "region": "Ignace, ON",
+      "overview": "~3.6 h from Kenora — required Shield split.",
+      "amenities": [
+        "Free informal (verify)",
+        "Lookout"
+      ],
+      "description": "Tolérance Hill / White Otter Lookout. Next morning ~3.6 h to Thunder Bay.",
+      "ioverlanderUrl": "https://ioverlander.com/places/3be629a1-3c7f-42af-a6f2-ffee0a0882b1",
+      "ioverlanderGuid": "3be629a1-3c7f-42af-a6f2-ffee0a0882b1",
+      "cost": "free",
+      "source": "iOverlander"
+    },
+    {
+      "id": "stop-11",
+      "step": 11,
+      "kind": "overnight",
+      "name": "Mission Island Boat Launch",
+      "label": "Day 11 · Thunder Bay (free)",
+      "lat": 48.37552,
+      "lng": -89.23083,
+      "category": "Informal Campsite",
+      "region": "Thunder Bay, ON",
+      "overview": "~3.6 h from Ignace — staging for Nipigon / Superior.",
+      "amenities": [
+        "Free informal (verify)",
+        "Waterfront"
+      ],
+      "description": "Boat launch / waterfront informal overnight. Alternate: Walmart Supercentre. Next day is a short Superior run to Nipigon (turnaround).",
+      "ioverlanderUrl": "https://ioverlander.com/places/043e158e-beab-455b-87a7-8599fc9d00e2",
+      "ioverlanderGuid": "043e158e-beab-455b-87a7-8599fc9d00e2",
+      "cost": "free",
+      "source": "iOverlander"
+    },
+    {
+      "id": "end",
+      "step": 12,
+      "kind": "end",
+      "name": "Nipigon River Bridge",
+      "label": "Day 12 · Nipigon turnaround (free)",
+      "lat": 49.01889,
+      "lng": -88.25117,
+      "category": "Wild Camping",
+      "region": "Nipigon, ON",
+      "overview": "~1.9 h from Thunder Bay — relaxed 21-day eastern high point.",
+      "amenities": [
+        "Free wild camping (verify)"
+      ],
+      "description": "Superior turnaround for the 21-day relaxed plan. Nova Scotia does not fit a relaxed 21-day loop from Nanaimo. Return Days 13–21 reverse west with mostly short days; Day 20 Canmore→Kamloops is the only ~7 h push.",
+      "ioverlanderUrl": "https://ioverlander.com/places/7cd41eaa-0af3-4454-8c06-c356b2026e9b",
+      "ioverlanderGuid": "7cd41eaa-0af3-4454-8c06-c356b2026e9b",
+      "cost": "free",
+      "paidBackup": {
+        "name": "Agawa Bay Campground",
+        "url": "https://ioverlander.com/places/9f292297-d8da-422e-a677-21b9b61bcab8"
+      },
+      "source": "iOverlander"
+    }
+  ]
+}
