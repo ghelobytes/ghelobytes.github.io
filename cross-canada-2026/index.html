@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cross-Canada · Min Prairies · Campgrounds</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Outfit:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css"
+      rel="stylesheet"
+    />
+    <link href="css/map.css?v=4" rel="stylesheet" />
+  </head>
+  <body>
+    <aside class="sidebar" id="sidebar">
+      <header class="sidebar__header">
+        <label class="version-picker">
+          <span class="version-picker__label">Itinerary version</span>
+          <select id="version-select" class="version-picker__select" aria-label="Itinerary version">
+            <option value="v01-ns-5day-return">Loading…</option>
+          </select>
+        </label>
+        <p class="eyebrow" id="trip-eyebrow">21 days · min SK/MB · campgrounds</p>
+        <h1 id="trip-title">Cross-Canada</h1>
+        <p class="lede" id="trip-lede">
+          Nipigon turnaround — Saskatchewan is transit only; Brandon is the only
+          prairie overnight each way. Campground pins with free backups.
+        </p>
+      </header>
+
+      <div class="stats" id="stats" hidden>
+        <div>
+          <span class="stats__value" id="stat-distance">—</span>
+          <span class="stats__label">drive km</span>
+        </div>
+        <div>
+          <span class="stats__value" id="stat-hours">—</span>
+          <span class="stats__label">drive hours</span>
+        </div>
+        <div>
+          <span class="stats__value" id="stat-stops">—</span>
+          <span class="stats__label">overnights</span>
+        </div>
+      </div>
+
+      <nav class="stop-list" id="stop-list" aria-label="Trip stops"></nav>
+
+      <footer class="sidebar__footer">
+        <p>
+          Basemap OpenFreeMap / Esri imagery · Route OSRM/OSM · Stops curated from
+          <a href="https://ioverlander.com/" target="_blank" rel="noopener"
+            >iOverlander</a
+          >
+          place pages matching the itinerary.
+        </p>
+      </footer>
+    </aside>
+
+    <button
+      type="button"
+      class="sidebar-toggle"
+      id="sidebar-toggle"
+      aria-controls="sidebar"
+      aria-expanded="true"
+    >
+      Stops
+    </button>
+
+    <main class="map-wrap">
+      <div id="map" role="application" aria-label="Trip map"></div>
+      <div class="basemap-toggle" role="group" aria-label="Basemap">
+        <button type="button" class="basemap-toggle__btn is-active" data-basemap="streets" aria-pressed="true">
+          Map
+        </button>
+        <button type="button" class="basemap-toggle__btn" data-basemap="satellite" aria-pressed="false">
+          Satellite
+        </button>
+      </div>
+    </main>
+
+    <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+    <script type="module" src="js/map.js?v=4"></script>
+  </body>
+</html>

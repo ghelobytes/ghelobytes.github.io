@@ -1,0 +1,14 @@
+{
+  "id": "v02-21d-relaxed-superior",
+  "label": "21d relaxed · Superior (ON)",
+  "summary": "Hard 21-day cap, mostly ≤5 h days, Nipigon/Lake Superior turnaround. NS does not fit relaxed pace.",
+  "created": "2026-08-03",
+  "days": 21,
+  "outboundCapHours": 5,
+  "returnDays": 9,
+  "files": {
+    "itinerary": "itinerary.md",
+    "stops": "stops.json",
+    "route": "route.geojson"
+  }
+}

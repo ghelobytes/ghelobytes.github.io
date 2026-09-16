@@ -1,0 +1,41 @@
+{
+  "activeId": "v04-21d-min-prairie-campgrounds",
+  "versions": [
+    {
+      "id": "v01-ns-5day-return",
+      "label": "NS · ≤5 h out · 5-day return",
+      "summary": "22-day outbound to Amherst NS (max 5 h/day), then 5 marathon return days via Montréal, Sault, Winnipeg, Calgary.",
+      "created": "2026-08-03",
+      "days": 27,
+      "outboundCapHours": 5,
+      "returnDays": 5
+    },
+    {
+      "id": "v02-21d-relaxed-superior",
+      "label": "21d relaxed · Superior (ON)",
+      "summary": "Hard 21-day cap, mostly ≤5 h days, Nipigon/Lake Superior turnaround. NS does not fit relaxed pace.",
+      "created": "2026-08-03",
+      "days": 21,
+      "outboundCapHours": 5,
+      "returnDays": 9
+    },
+    {
+      "id": "v03-21d-alternate-return",
+      "label": "21d · alternate return towns",
+      "summary": "v02 outbound to Nipigon; return via Dryden, Portage, Yorkton, Moose Jaw, Brooks, Calgary, Revelstoke, Hope.",
+      "created": "2026-08-03",
+      "days": 21,
+      "outboundCapHours": 5,
+      "returnDays": 9
+    },
+    {
+      "id": "v04-21d-min-prairie-campgrounds",
+      "label": "21d · min prairie · campgrounds",
+      "summary": "Brandon-only SK/MB nights (SK is transit). Campground-first pins with free backups. Nipigon turnaround.",
+      "created": "2026-08-07",
+      "days": 21,
+      "outboundCapHours": 10,
+      "returnDays": 10
+    }
+  ]
+}

@@ -1,0 +1,462 @@
+{
+  "title": "Cross-Canada · 21 Days · Alternate Return",
+  "subtitle": "Nanaimo → Nipigon → home via Dryden · Yorkton · Brooks · Revelstoke · Hope",
+  "attribution": {
+    "route": "Route geometry via OSRM / OpenStreetMap (outbound + return corridor)",
+    "stops": "Primary free overnight anchors curated from public iOverlander place pages",
+    "basemap": "OpenFreeMap / OpenStreetMap"
+  },
+  "stops": [
+    {
+      "id": "start",
+      "step": 0,
+      "kind": "start",
+      "name": "Departure Bay Ferry Terminal",
+      "label": "Start · Nanaimo",
+      "lat": 49.1912971,
+      "lng": -123.9537888,
+      "category": "Ferry Terminal",
+      "region": "Nanaimo, BC",
+      "overview": "Day 1 outbound ferry — and Day 21 return landing.",
+      "amenities": [
+        "Ferry",
+        "Parking",
+        "Washrooms"
+      ],
+      "description": "BC Ferries Departure Bay. Reserve outbound and Day 21 return. Outbound matches v02; return uses new overnight towns.",
+      "ioverlanderUrl": "https://ioverlander.com/places/7d23eb69-a7b0-49d6-a3fe-35417afbb99b",
+      "ioverlanderGuid": "7d23eb69-a7b0-49d6-a3fe-35417afbb99b",
+      "cost": "ferry fare",
+      "source": "itinerary"
+    },
+    {
+      "id": "ferry-arrival",
+      "step": 0,
+      "kind": "ferry",
+      "name": "Horseshoe Bay Ferry Terminal",
+      "label": "Ferry · Horseshoe Bay",
+      "lat": 49.3685581,
+      "lng": -123.2758982,
+      "category": "Ferry Terminal",
+      "region": "West Vancouver, BC",
+      "overview": "Mainland landing outbound; return ferry staging on Day 21.",
+      "amenities": [
+        "Ferry",
+        "Parking"
+      ],
+      "description": "Hwy 1 east outbound (~4.5 h to Kamloops). Return: board Departure Bay sailing.",
+      "ioverlanderUrl": "https://ioverlander.com/places/F04EE4C5-D11B-4EB1-B3E6-913899D6E3EA",
+      "ioverlanderGuid": "F04EE4C5-D11B-4EB1-B3E6-913899D6E3EA",
+      "cost": "ferry fare",
+      "source": "itinerary"
+    },
+    {
+      "id": "stop-1",
+      "step": 1,
+      "kind": "overnight",
+      "name": "Exhibition Park Baseball Fields",
+      "label": "Day 1 · Kamloops (free)",
+      "lat": 50.67518,
+      "lng": -120.31215,
+      "category": "Informal Campsite",
+      "region": "Kamloops, BC",
+      "overview": "~4.5 h from Horseshoe Bay.",
+      "amenities": [
+        "Free overnight (verify)",
+        "Parking lot"
+      ],
+      "description": "Exhibition Park baseball fields. Alternates: Sahali Mall or wild camping west of town.",
+      "ioverlanderUrl": "https://ioverlander.com/places/36d2f680-0d5d-462d-832c-e0e658a51811",
+      "ioverlanderGuid": "36d2f680-0d5d-462d-832c-e0e658a51811",
+      "cost": "free",
+      "source": "iOverlander"
+    },
+    {
+      "id": "stop-2",
+      "step": 2,
+      "kind": "overnight",
+      "name": "Golden Free RV Parking",
+      "label": "Day 2 · Golden (free)",
+      "lat": 51.3001,
+      "lng": -116.96462,
+      "category": "Short-term Parking",
+      "region": "Golden, BC",
+      "overview": "~4.9 h from Kamloops.",
+      "amenities": [
+        "Free RV parking"
+      ],
+      "description": "Free RV parking / overnight stationnement. Staging for Banff day.",
+      "ioverlanderUrl": "https://ioverlander.com/places/4e4185dc-8328-44f8-9774-17d36f1c82f5",
+      "ioverlanderGuid": "4e4185dc-8328-44f8-9774-17d36f1c82f5",
+      "cost": "free",
+      "source": "iOverlander"
+    },
+    {
+      "id": "stop-3",
+      "step": 3,
+      "kind": "overnight",
+      "name": "Canmore 17 Street Parking",
+      "label": "Day 3 · Canmore / Banff (free)",
+      "lat": 51.09716,
+      "lng": -115.35499,
+      "category": "Informal Campsite",
+      "region": "Canmore, AB",
+      "overview": "~2.3 h drive + Banff day-use.",
+      "amenities": [
+        "Free informal (verify)",
+        "Near Banff"
+      ],
+      "description": "Sleep in Canmore; day-trip Lake Louise / Banff. Backup: Tunnel Mountain Village II.",
+      "ioverlanderUrl": "https://ioverlander.com/places/f0c76d48-b203-4ff1-9a7f-40f36ad80540",
+      "ioverlanderGuid": "f0c76d48-b203-4ff1-9a7f-40f36ad80540",
+      "cost": "free",
+      "paidBackup": {
+        "name": "Tunnel Mountain Village II",
+        "url": "https://ioverlander.com/places/755c3f00-e1e7-4430-924b-ed0b8fe2483a"
+      },
+      "source": "iOverlander"
+    },
+    {
+      "id": "stop-4",
+      "step": 4,
+      "kind": "overnight",
+      "name": "Quiet Spot off Hwy — Medicine Hat",
+      "label": "Day 4 · Medicine Hat (free)",
+      "lat": 50.02242,
+      "lng": -110.70722,
+      "category": "Wild Camping",
+      "region": "Medicine Hat, AB",
+      "overview": "~4.8 h via Calgary.",
+      "amenities": [
+        "Free wild/informal"
+      ],
+      "description": "Quiet pull-off / visitor centre / Co-op. Paid backup: Gas City / Tillebrook.",
+      "ioverlanderUrl": "https://ioverlander.com/places/2c1c2e24-6040-4f06-85b8-ba66ae1aceb6",
+      "ioverlanderGuid": "2c1c2e24-6040-4f06-85b8-ba66ae1aceb6",
+      "cost": "free",
+      "source": "iOverlander"
+    },
+    {
+      "id": "stop-5",
+      "step": 5,
+      "kind": "overnight",
+      "name": "Swift Current Living Sky Casino",
+      "label": "Day 5 · Swift Current (free)",
+      "lat": 50.30329,
+      "lng": -107.78461,
+      "category": "Informal Campsite",
+      "region": "Swift Current, SK",
+      "overview": "~2.6 h — keeps Medicine Hat→Regina under 5 h.",
+      "amenities": [
+        "Free informal (verify)"
+      ],
+      "description": "Living Sky Casino lot. Skipping this makes MH→Regina ~5.3 h.",
+      "ioverlanderUrl": "https://ioverlander.com/places/0c05f8d5-c0e8-4d72-9baa-6bdf91390c58",
+      "ioverlanderGuid": "0c05f8d5-c0e8-4d72-9baa-6bdf91390c58",
+      "cost": "free",
+      "source": "iOverlander"
+    },
+    {
+      "id": "stop-6",
+      "step": 6,
+      "kind": "overnight",
+      "name": "Cabela's Regina",
+      "label": "Day 6 · Regina (free)",
+      "lat": 50.40457,
+      "lng": -104.65016,
+      "category": "Informal Campsite",
+      "region": "Regina, SK",
+      "overview": "~2.7 h from Swift Current.",
+      "amenities": [
+        "Free informal (verify)"
+      ],
+      "description": "Cabela's lot overnight.",
+      "ioverlanderUrl": "https://ioverlander.com/places/7af5472b-87bd-431f-816f-64ee3e3a05ea",
+      "ioverlanderGuid": "7af5472b-87bd-431f-816f-64ee3e3a05ea",
+      "cost": "free",
+      "source": "iOverlander"
+    },
+    {
+      "id": "stop-7",
+      "step": 7,
+      "kind": "overnight",
+      "name": "Dinsdale Park",
+      "label": "Day 7 · Brandon (free)",
+      "lat": 49.85208,
+      "lng": -99.94159,
+      "category": "Informal Campsite",
+      "region": "Brandon, MB",
+      "overview": "~4.5 h from Regina.",
+      "amenities": [
+        "Free informal (verify)"
+      ],
+      "description": "Dinsdale Park. Alternates: streetside laundry area, Brandon Hills entrance.",
+      "ioverlanderUrl": "https://ioverlander.com/places/E93994EF-F934-448D-8BAC-34C2988175D0",
+      "ioverlanderGuid": "E93994EF-F934-448D-8BAC-34C2988175D0",
+      "cost": "free",
+      "source": "iOverlander"
+    },
+    {
+      "id": "stop-8",
+      "step": 8,
+      "kind": "overnight",
+      "name": "Cabela’s Winnipeg",
+      "label": "Day 8 · Winnipeg (free)",
+      "lat": 49.83917,
+      "lng": -97.21941,
+      "category": "Informal Campsite",
+      "region": "Winnipeg, MB",
+      "overview": "~2.7 h from Brandon.",
+      "amenities": [
+        "Free informal (verify)"
+      ],
+      "description": "Cabela's lot. Alternate: Walmart. Verify overnight policy.",
+      "ioverlanderUrl": "https://ioverlander.com/places/a838e3f7-10da-4212-9166-6e17b27974ed",
+      "ioverlanderGuid": "a838e3f7-10da-4212-9166-6e17b27974ed",
+      "cost": "free",
+      "source": "iOverlander"
+    },
+    {
+      "id": "stop-9",
+      "step": 9,
+      "kind": "overnight",
+      "name": "Kenora Walmart",
+      "label": "Day 9 · Kenora (free)",
+      "lat": 49.75793,
+      "lng": -94.47212,
+      "category": "Informal Campsite",
+      "region": "Kenora, ON",
+      "overview": "~3.1 h from Winnipeg.",
+      "amenities": [
+        "Free informal (verify)"
+      ],
+      "description": "Walmart overnight. Next day stops at Ignace so Kenora→Thunder Bay never becomes ~7 h.",
+      "ioverlanderUrl": "https://ioverlander.com/places/c326711b-4cdc-46c3-a67c-61154c7d2bc3",
+      "ioverlanderGuid": "c326711b-4cdc-46c3-a67c-61154c7d2bc3",
+      "cost": "free",
+      "source": "iOverlander"
+    },
+    {
+      "id": "stop-10",
+      "step": 10,
+      "kind": "overnight",
+      "name": "Tolérance Hill Lookout",
+      "label": "Day 10 · Ignace (free)",
+      "lat": 49.40419,
+      "lng": -91.62698,
+      "category": "Informal Campsite",
+      "region": "Ignace, ON",
+      "overview": "~3.6 h from Kenora — required Shield split.",
+      "amenities": [
+        "Free informal (verify)",
+        "Lookout"
+      ],
+      "description": "Tolérance Hill / White Otter Lookout. Next morning ~3.6 h to Thunder Bay.",
+      "ioverlanderUrl": "https://ioverlander.com/places/3be629a1-3c7f-42af-a6f2-ffee0a0882b1",
+      "ioverlanderGuid": "3be629a1-3c7f-42af-a6f2-ffee0a0882b1",
+      "cost": "free",
+      "source": "iOverlander"
+    },
+    {
+      "id": "stop-11",
+      "step": 11,
+      "kind": "overnight",
+      "name": "Mission Island Boat Launch",
+      "label": "Day 11 · Thunder Bay (free)",
+      "lat": 48.37552,
+      "lng": -89.23083,
+      "category": "Informal Campsite",
+      "region": "Thunder Bay, ON",
+      "overview": "~3.6 h from Ignace — staging for Nipigon / Superior.",
+      "amenities": [
+        "Free informal (verify)",
+        "Waterfront"
+      ],
+      "description": "Boat launch / waterfront informal overnight. Alternate: Walmart Supercentre. Next day is a short Superior run to Nipigon (turnaround).",
+      "ioverlanderUrl": "https://ioverlander.com/places/043e158e-beab-455b-87a7-8599fc9d00e2",
+      "ioverlanderGuid": "043e158e-beab-455b-87a7-8599fc9d00e2",
+      "cost": "free",
+      "source": "iOverlander"
+    },
+    {
+      "id": "stop-12",
+      "step": 12,
+      "kind": "overnight",
+      "name": "Nipigon River Bridge",
+      "label": "Day 12 · Nipigon turnaround (free)",
+      "lat": 49.01889,
+      "lng": -88.25117,
+      "category": "Wild Camping",
+      "region": "Nipigon, ON",
+      "overview": "~1.9 h from Thunder Bay — turnaround; return uses a different overnight ladder.",
+      "amenities": [
+        "Free wild camping (verify)"
+      ],
+      "description": "Superior turnaround. Days 13–21 sleep in new towns (Dryden, Portage, Yorkton, Moose Jaw, Brooks, Calgary, Revelstoke, Hope) instead of reversing the outbound stops.",
+      "ioverlanderUrl": "https://ioverlander.com/places/7cd41eaa-0af3-4454-8c06-c356b2026e9b",
+      "ioverlanderGuid": "7cd41eaa-0af3-4454-8c06-c356b2026e9b",
+      "cost": "free",
+      "source": "iOverlander"
+    },
+    {
+      "id": "return-1",
+      "step": 13,
+      "kind": "overnight",
+      "name": "Dryden Esso/Husky",
+      "label": "Day 13 · Dryden (free) · return",
+      "lat": 49.78667,
+      "lng": -92.83306,
+      "category": "Informal Campsite",
+      "region": "Dryden, ON",
+      "overview": "~6.4 h from Nipigon — first new return overnight (skipped Ignace/Kenora).",
+      "amenities": [
+        "Free informal (verify)"
+      ],
+      "description": "Esso/Husky lot overnight. Alternate corridor west without repeating Ignace or Kenora.",
+      "ioverlanderUrl": "https://ioverlander.com/places/bc84d189-b8c0-41e6-b376-34405dd7a8a7",
+      "ioverlanderGuid": "bc84d189-b8c0-41e6-b376-34405dd7a8a7",
+      "cost": "free",
+      "source": "iOverlander"
+    },
+    {
+      "id": "return-2",
+      "step": 14,
+      "kind": "overnight",
+      "name": "Portage Mall",
+      "label": "Day 14 · Portage la Prairie (free) · return",
+      "lat": 49.975,
+      "lng": -98.3309,
+      "category": "Informal Campsite",
+      "region": "Portage la Prairie, MB",
+      "overview": "~6.0 h from Dryden — west of Winnipeg without sleeping in Winnipeg again.",
+      "amenities": [
+        "Free informal (verify)"
+      ],
+      "description": "Portage Mall lot. Alternate: Shell Flying J. Skips Winnipeg and Brandon overnights.",
+      "ioverlanderUrl": "https://ioverlander.com/places/A749E8C6-9ADD-4F33-9731-8C2E99206AA9",
+      "ioverlanderGuid": "A749E8C6-9ADD-4F33-9731-8C2E99206AA9",
+      "cost": "free",
+      "source": "iOverlander"
+    },
+    {
+      "id": "return-3",
+      "step": 15,
+      "kind": "overnight",
+      "name": "Yorkton Walmart",
+      "label": "Day 15 · Yorkton (free) · return",
+      "lat": 51.20544,
+      "lng": -102.44455,
+      "category": "Informal Campsite",
+      "region": "Yorkton, SK",
+      "overview": "~4.8 h from Portage — northern prairie line vs outbound Regina corridor.",
+      "amenities": [
+        "Free informal (verify)"
+      ],
+      "description": "Walmart overnight. Alternates: Painted Hand Casino, tourist information lot.",
+      "ioverlanderUrl": "https://ioverlander.com/places/5dfb5bd0-8ff1-4af6-b207-77333a140b8f",
+      "ioverlanderGuid": "5dfb5bd0-8ff1-4af6-b207-77333a140b8f",
+      "cost": "free",
+      "source": "iOverlander"
+    },
+    {
+      "id": "return-4",
+      "step": 16,
+      "kind": "overnight",
+      "name": "Moose Jaw Walmart",
+      "label": "Day 16 · Moose Jaw (free) · return",
+      "lat": 50.41007,
+      "lng": -105.52268,
+      "category": "Informal Campsite",
+      "region": "Moose Jaw, SK",
+      "overview": "~3.3 h from Yorkton — instead of Regina / Swift Current.",
+      "amenities": [
+        "Free informal (verify)"
+      ],
+      "description": "Walmart overnight. Alternate: visitor centre lot.",
+      "ioverlanderUrl": "https://ioverlander.com/places/736550e5-ea97-469d-9acd-88a3020dff31",
+      "ioverlanderGuid": "736550e5-ea97-469d-9acd-88a3020dff31",
+      "cost": "free",
+      "source": "iOverlander"
+    },
+    {
+      "id": "return-5",
+      "step": 17,
+      "kind": "overnight",
+      "name": "Brooks Walmart",
+      "label": "Day 17 · Brooks (free) · return",
+      "lat": 50.57872,
+      "lng": -111.90086,
+      "category": "Informal Campsite",
+      "region": "Brooks, AB",
+      "overview": "~5.9 h from Moose Jaw — instead of Medicine Hat overnight.",
+      "amenities": [
+        "Free informal (verify)"
+      ],
+      "description": "Walmart overnight. Alternates: Flying J, Co-op cardlock truck parking.",
+      "ioverlanderUrl": "https://ioverlander.com/places/1b8f3c26-d63e-4642-b5c6-70997c2b21bc",
+      "ioverlanderGuid": "1b8f3c26-d63e-4642-b5c6-70997c2b21bc",
+      "cost": "free",
+      "source": "iOverlander"
+    },
+    {
+      "id": "return-6",
+      "step": 18,
+      "kind": "overnight",
+      "name": "Southcentre Mall",
+      "label": "Day 18 · Calgary (free) · return",
+      "lat": 50.9505,
+      "lng": -114.06225,
+      "category": "Informal Campsite",
+      "region": "Calgary, AB",
+      "overview": "~2.4 h from Brooks — first Calgary overnight (outbound only drove through).",
+      "amenities": [
+        "Free informal (verify)"
+      ],
+      "description": "Southcentre Mall lot. Alternate: Blackfoot Truck Stop. Verify overnight policy.",
+      "ioverlanderUrl": "https://ioverlander.com/places/ed2723eb-fefa-4a1a-8538-101279fba602",
+      "ioverlanderGuid": "ed2723eb-fefa-4a1a-8538-101279fba602",
+      "cost": "free",
+      "source": "iOverlander"
+    },
+    {
+      "id": "return-7",
+      "step": 19,
+      "kind": "overnight",
+      "name": "Revelstoke informal",
+      "label": "Day 19 · Revelstoke (free) · return",
+      "lat": 51.00206,
+      "lng": -118.19832,
+      "category": "Informal Campsite",
+      "region": "Revelstoke, BC",
+      "overview": "~5.6 h from Calgary — instead of Golden / Canmore sleep stops.",
+      "amenities": [
+        "Free informal (verify)"
+      ],
+      "description": "Town informal overnight. Alternate: Griffith Creek trailhead recreation site.",
+      "ioverlanderUrl": "https://ioverlander.com/places/d8197a7e-d940-4c0f-9e7e-fdaa93bafc16",
+      "ioverlanderGuid": "d8197a7e-d940-4c0f-9e7e-fdaa93bafc16",
+      "cost": "free",
+      "source": "iOverlander"
+    },
+    {
+      "id": "return-8",
+      "step": 20,
+      "kind": "end",
+      "name": "Hope Flying J",
+      "label": "Day 20 · Hope (free) · return",
+      "lat": 49.36529,
+      "lng": -121.48193,
+      "category": "Informal Campsite",
+      "region": "Hope, BC",
+      "overview": "~5.1 h from Revelstoke — staging for a short Day 21 ferry run (~2.3 h).",
+      "amenities": [
+        "Free informal (verify)"
+      ],
+      "description": "Flying J Travel Center overnight. Alternate: Cascades & Canyons visitor centre lot. Next day: Hope → Horseshoe Bay + ferry home — no Kamloops overnight on this return.",
+      "ioverlanderUrl": "https://ioverlander.com/places/8b8d7388-6f6a-4693-850e-3148560d3f53",
+      "ioverlanderGuid": "8b8d7388-6f6a-4693-850e-3148560d3f53",
+      "cost": "free",
+      "source": "iOverlander"
+    }
+  ]
+}
