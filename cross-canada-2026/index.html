@@ -1,89 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Cross-Canada · Min Prairies · Campgrounds</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Outfit:wght@500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css"
-      rel="stylesheet"
-    />
-    <link href="css/map.css?v=4" rel="stylesheet" />
-  </head>
-  <body>
-    <aside class="sidebar" id="sidebar">
-      <header class="sidebar__header">
-        <label class="version-picker">
-          <span class="version-picker__label">Itinerary version</span>
-          <select id="version-select" class="version-picker__select" aria-label="Itinerary version">
-            <option value="v01-ns-5day-return">Loading…</option>
-          </select>
-        </label>
-        <p class="eyebrow" id="trip-eyebrow">21 days · min SK/MB · campgrounds</p>
-        <h1 id="trip-title">Cross-Canada</h1>
-        <p class="lede" id="trip-lede">
-          Nipigon turnaround — Saskatchewan is transit only; Brandon is the only
-          prairie overnight each way. Campground pins with free backups.
-        </p>
-      </header>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Cross-Canada Timeline</title>
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<div id="app">
 
-      <div class="stats" id="stats" hidden>
-        <div>
-          <span class="stats__value" id="stat-distance">—</span>
-          <span class="stats__label">drive km</span>
-        </div>
-        <div>
-          <span class="stats__value" id="stat-hours">—</span>
-          <span class="stats__label">drive hours</span>
-        </div>
-        <div>
-          <span class="stats__value" id="stat-stops">—</span>
-          <span class="stats__label">overnights</span>
-        </div>
+  <aside id="sidebar">
+    <header class="brand">
+      <div class="brand-mark">◈</div>
+      <div class="brand-text">
+        <h1>Cross&#8209;Canada Road Trip 2026</h1>
+        <span>Timeline Explorer</span>
       </div>
+    </header>
 
-      <nav class="stop-list" id="stop-list" aria-label="Trip stops"></nav>
-
-      <footer class="sidebar__footer">
-        <p>
-          Basemap OpenFreeMap / Esri imagery · Route OSRM/OSM · Stops curated from
-          <a href="https://ioverlander.com/" target="_blank" rel="noopener"
-            >iOverlander</a
-          >
-          place pages matching the itinerary.
-        </p>
-      </footer>
-    </aside>
-
-    <button
-      type="button"
-      class="sidebar-toggle"
-      id="sidebar-toggle"
-      aria-controls="sidebar"
-      aria-expanded="true"
-    >
-      Stops
-    </button>
-
-    <main class="map-wrap">
-      <div id="map" role="application" aria-label="Trip map"></div>
-      <div class="basemap-toggle" role="group" aria-label="Basemap">
-        <button type="button" class="basemap-toggle__btn is-active" data-basemap="streets" aria-pressed="true">
-          Map
-        </button>
-        <button type="button" class="basemap-toggle__btn" data-basemap="satellite" aria-pressed="false">
-          Satellite
-        </button>
+    <section class="stats-bar" id="statsBar">
+      <div class="stat">
+        <span class="stat-value" id="statDistance">—</span>
+        <span class="stat-label">km travelled</span>
       </div>
-    </main>
+      <div class="stat">
+        <span class="stat-value" id="statDays">—</span>
+        <span class="stat-label">days tracked</span>
+      </div>
+      <div class="stat">
+        <span class="stat-value" id="statVisits">—</span>
+        <span class="stat-label">stops</span>
+      </div>
+    </section>
 
-    <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
-    <script type="module" src="js/map.js?v=4"></script>
-  </body>
+    <section class="calendar-panel">
+      <div class="calendar-nav">
+        <button id="prevMonth" class="nav-btn" aria-label="Previous month">&#8249;</button>
+        <span id="monthLabel" class="month-label">—</span>
+        <button id="nextMonth" class="nav-btn" aria-label="Next month">&#8250;</button>
+      </div>
+      <div class="weekday-row">
+        <span>S</span><span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span>
+      </div>
+      <div id="calendarGrid" class="calendar-grid"></div>
+    </section>
+
+    <section class="selection-panel" id="selectionPanel">
+      <div class="selection-header">
+        <span id="selectionTitle">Entire trip</span>
+        <button id="clearSelection" class="clear-btn" hidden>Show all</button>
+      </div>
+      <div id="selectionMeta" class="selection-meta"></div>
+      <div id="visitList" class="visit-list"></div>
+    </section>
+
+    <footer class="legend">
+      <div class="legend-item"><span class="dot mode-1"></span>Driving</div>
+      <div class="legend-item"><span class="dot mode-2"></span>Walking</div>
+      <div class="legend-item"><span class="dot mode-3"></span>Ferry</div>
+      <div class="legend-item"><span class="dot mode-4"></span>Bus</div>
+      <div class="legend-item"><span class="dot mode-poi"></span>Point of interest</div>
+    </footer>
+  </aside>
+
+  <main id="mapPane">
+    <div id="map"></div>
+    <div id="mapOverlay">
+      <div id="dayTitle" class="day-title" hidden></div>
+    </div>
+    <div id="loadingScreen">
+      <div class="loader"></div>
+      <span>Loading timeline…</span>
+    </div>
+  </main>
+
+</div>
+
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="js/app.js"></script>
+</body>
 </html>
