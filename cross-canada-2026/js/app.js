@@ -473,6 +473,37 @@
     renderRoute();
   }
 
+  // ---------- Mobile sidebar ----------
+
+  function initMobileSidebar() {
+    const sidebar = $('sidebar');
+    const toggleBtn = $('sidebarToggle');
+    const closeBtn = $('sidebarClose');
+    const scrim = $('sidebarScrim');
+    const mobileQuery = window.matchMedia('(max-width: 700px)');
+
+    function openSidebar() {
+      sidebar.classList.add('open');
+      scrim.classList.add('open');
+    }
+
+    function closeSidebar() {
+      sidebar.classList.remove('open');
+      scrim.classList.remove('open');
+    }
+
+    toggleBtn.addEventListener('click', openSidebar);
+    closeBtn.addEventListener('click', closeSidebar);
+    scrim.addEventListener('click', closeSidebar);
+
+    sidebar.addEventListener('click', (e) => {
+      if (!mobileQuery.matches) return;
+      if (e.target.closest('.day-cell.has-data') || e.target.closest('.visit-card')) {
+        closeSidebar();
+      }
+    });
+  }
+
   // ---------- Init ----------
 
   async function init() {
@@ -491,6 +522,7 @@
     $('prevMonth').addEventListener('click', () => changeMonth(-1));
     $('nextMonth').addEventListener('click', () => changeMonth(1));
     $('clearSelection').addEventListener('click', clearSelection);
+    initMobileSidebar();
 
     if (mapFullyLoaded) {
       $('loadingScreen').classList.add('hidden');

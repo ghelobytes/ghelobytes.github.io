@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 <title>Cross-Canada Timeline</title>
 <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,6 +20,7 @@
         <h1>Cross&#8209;Canada Road Trip 2026</h1>
         <span>Timeline Explorer</span>
       </div>
+      <button id="sidebarClose" class="sidebar-close-btn" aria-label="Close panel">&#10005;</button>
     </header>
 
     <section class="stats-bar" id="statsBar">
@@ -68,6 +69,7 @@
   </aside>
 
   <main id="mapPane">
+    <button id="sidebarToggle" class="sidebar-toggle-btn" aria-label="Open panel">&#9776;</button>
     <div id="map"></div>
     <div id="mapOverlay">
       <div id="dayTitle" class="day-title" hidden></div>
@@ -77,6 +79,8 @@
       <span>Loading timeline…</span>
     </div>
   </main>
+
+  <div id="sidebarScrim"></div>
 
 </div>
 
